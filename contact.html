@@ -4,18 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Photos & Videos</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/29d8393730.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
+    <div class="header">
+        <header>Imagine that photo <span>& video studio</span></header>
+    </div>
+    <!-- The nav bar -->
     <nav>
-        <h2 class="logo"><a href=""><img src="img/LogoMakr-9aqrWV.png" alt=""></a> Imagine that photo <span>& video studio</span></h2>
+        <h2 class="logo"><a href="index.html"><img src="img/camera logo black.png" alt=""></a></h2>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-camera"></i> About</a></li>
         </ul>
     </nav>
+    <!-- Contact info -->
+    <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    <!-- Footer with links -->
+    <footer>
+        <h2>Imagine that photo <span>& video studio</span></h2>
+       <div class="icons">
+            <a href="https://www.instagram.com/director_amaro/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/director_amaro/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/director_amaro/"><i class="fa-brands fa-twitter"></i></a>
+       </div>
+    </footer>
 </body>
 </html>
